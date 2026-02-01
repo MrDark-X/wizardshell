@@ -12,7 +12,7 @@ Wizard Shell uses **xterm.js in the browser**, **WebSockets for transport**, and
 
 ---
 
-## ✨ Features
+# ✨ Features
 
 - 🌐 Browser-based interactive SSH terminal
 - 🔐 Real SSH backend (no pseudo shells)
