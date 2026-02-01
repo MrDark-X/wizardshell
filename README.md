@@ -30,6 +30,7 @@ Wizard Shell uses **xterm.js in the browser**, **WebSockets for transport**, and
 
 # 🧠 Architecture Overview
 
+```architecture
 Browser (xterm.js)
 │
 ▼
@@ -43,7 +44,7 @@ Linux SSH daemon
 │
 ▼
 Real shell (webterm user)
-
+```
 
 This means:
 - Commands execute **exactly as they would over SSH**
