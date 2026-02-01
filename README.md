@@ -125,6 +125,5 @@ Package as an Ansible role
 Yaswanth Surya Chalamalasetty
 CortexLab
 Wizard Shell Project
-
-Built for learning, labs, and real operational control.
+Built for learning, Labs and Secops Control
 ---
