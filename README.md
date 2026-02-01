@@ -84,7 +84,8 @@ chmod +x xterm.sh
 sudo ./xterm.sh
 ```
 
-## ▶️ Running Wizard Shell
+---
+# ▶️ Running Wizard Shell
 
 Once installed, the service is managed by systemd.
 
@@ -94,18 +95,36 @@ systemctl status wizard-shell.service
 systemctl restart wizard-shell.service
 journalctl -u wizard-shell.service -n 100 --no-pager
 ```
+---
 
-🌐 Accessing the Web Terminal
+# 🌐 Accessing the Web Terminal
 
 Open your browser:
 ```cpp
 http://<server-ip>:8088
 ```
 
-Inside the terminal:
+---
+# 🛠️ Customization Ideas
 
-Normal shell commands work
+Put Wizard Shell behind Nginx + HTTPS
 
-SSH behavior is native
+Add HTTP basic auth or SSO
 
-sudo works according to configured policy
+Bind service to internal IP only
+
+Add session idle timeout
+
+Enable command logging for audit trails
+
+Package as an Ansible role
+---
+
+# 👨‍💻 Author
+
+Yaswanth Surya Chalamalasetty
+CortexLab
+Wizard Shell Project
+
+Built for learning, labs, and real operational control.
+---
