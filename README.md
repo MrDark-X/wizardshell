@@ -28,7 +28,7 @@ Wizard Shell uses **xterm.js in the browser**, **WebSockets for transport**, and
 
 ---
 
-## 🧠 Architecture Overview
+# 🧠 Architecture Overview
 
 Browser (xterm.js)
 │
