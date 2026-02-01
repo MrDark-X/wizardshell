@@ -105,6 +105,7 @@ http://<server-ip>:8088
 ```
 
 ---
+
 # 🛠️ Customization Ideas
 
 Put Wizard Shell behind Nginx + HTTPS
@@ -118,6 +119,7 @@ Add session idle timeout
 Enable command logging for audit trails
 
 Package as an Ansible role
+
 ---
 
 # 👨‍💻 Author
